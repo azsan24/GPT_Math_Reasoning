@@ -10,6 +10,8 @@ from langchain.callbacks import StreamlitCallbackHandler
 st.set_page_config(page_title="Text to Math Solver & Search Assistant", page_icon="🧮")
 st.title("🧮 Math Problem Solver using Google Gemma 2")
 
+####
+
 # API Key Input
 groq_api_key = st.sidebar.text_input("Enter your Groq API Key", type="password")
 if not groq_api_key:
